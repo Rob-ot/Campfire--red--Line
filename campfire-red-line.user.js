@@ -5,7 +5,7 @@
 // @version        1.0.0
 // @license        MIT
 // @include        http://*.campfirenow.com*
-// @exclude        https://*.campfirenow.com*
+// @include        https://*.campfirenow.com*
 // ==/UserScript==
 
 ;(function () {
@@ -23,7 +23,7 @@ function resetLine () {
 }
 
 function findNewest () {
-  var msgs = document.querySelectorAll(".chat .message")
+  var msgs = document.querySelectorAll(".chat .text_message")
   return msgs[msgs.length - 1]
 }
 
