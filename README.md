@@ -1,5 +1,4 @@
-
-Hey this just adds a red line to the latest message in campfire that resets when the wundow is blurred.
+Hey this just adds a red line to the latest message in campfire that resets when the window is blurred.
 
 It should run on any modern browser including Fluid.
 
